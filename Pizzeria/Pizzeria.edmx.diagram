@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c0f5345cf6da4b078e54a7029df8693f" Name="Diagram1">
+        <EntityTypeShape EntityType="PizzeriaModel.Customers" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PizzeriaModel.Order_Items" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PizzeriaModel.Orders" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PizzeriaModel.Pizzas" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="PizzeriaModel.FK__Orders__customer__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="PizzeriaModel.FK__Order_Ite__order__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="PizzeriaModel.FK__Order_Ite__pizza__4316F928" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
